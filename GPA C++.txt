@@ -1,0 +1,203 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+
+int main()
+{
+    //chars can only hold single letters Ex: A E F L G Can't hold AB A B APPP AND
+    char grade, grade2, grade3, grade4, grade5, grade6, grade7;
+    double A = 4, B = 3, C = 2, D = 1, F = 0,class1, class2, class3, class4, class5, class6, class7, totalSum, Gpa;
+
+    cout<<"Please enter in your grade for your first class"<<endl;
+    cout<<"Class 1: ";
+    cin>>grade;
+
+    switch(grade){
+case 'A':
+    grade = A;
+    class1 = A;
+break;
+case 'B':
+    grade = B;
+    class1 = B;
+    break;
+case 'C':
+    grade = C;
+    class1 = C;
+    break;
+case 'D':
+    grade = D;
+    class1 = D;
+    break;
+case 'F':
+    grade = F;
+    class1 = F;
+    break;
+}
+    cout<<""<<endl;
+    cout<<"Class 2: ";
+    cin>>grade2;
+
+    switch(grade2){
+case 'A':
+    grade2 = A;
+    class2 = A;
+break;
+case 'B':
+    grade2 = B;
+    class2 = B;
+    break;
+case 'C':
+    grade2 = C;
+    class2 = C;
+    break;
+case 'D':
+    grade2 = D;
+    class2 = D;
+    break;
+case 'F':
+    grade2 = F;
+    class2 = F;
+    break;
+}
+    cout<<""<<endl;
+    cout<<"Class 3: ";
+    cin>>grade3;
+
+    switch(grade3){
+case 'A':
+    grade3 = A;
+    class3 = A;
+break;
+case 'B':
+    grade3 = B;
+    class3 = B;
+    break;
+case 'C':
+    grade3 = C;
+    class3 = C;
+    break;
+case 'D':
+    grade3 = D;
+    class3 = D;
+    break;
+case 'F':
+    grade3 = F;
+    class3 = F;
+    break;
+}
+cout<<""<<endl;
+    cout<<"Class 4: ";
+    cin>>grade4;
+
+    switch(grade4){
+case 'A':
+    grade4 = A;
+    class4 = A;
+break;
+case 'B':
+    grade4 = B;
+    class4 = B;
+    break;
+case 'C':
+    grade4 = C;
+    class4 = C;
+    break;
+case 'D':
+    grade4 = D;
+    class4 = D;
+    break;
+case 'F':
+    grade4 = F;
+    class4 = F;
+    break;
+    }
+
+    cout<<""<<endl;
+    cout<<"Class 5: ";
+    cin>>grade5;
+
+    switch(grade5){
+case 'A':
+    grade5 = A;
+    class5 = A;
+break;
+case 'B':
+    grade5 = B;
+    class5 = B;
+    break;
+case 'C':
+    grade5 = C;
+    class5 = C;
+    break;
+case 'D':
+    grade5 = D;
+    class5 = D;
+    break;
+case 'F':
+    grade5 = F;
+    class5 = F;
+    break;
+    }
+
+    cout<<""<<endl;
+    cout<<"Class 6: ";
+    cin>>grade6;
+
+    switch(grade6){
+case 'A':
+    grade6 = A;
+    class6 = A;
+break;
+case 'B':
+    grade6 = B;
+    class6 = B;
+    break;
+case 'C':
+    grade6 = C;
+    class6 = C;
+    break;
+case 'D':
+    grade6 = D;
+    class6 = D;
+    break;
+case 'F':
+    grade6 = F;
+    class6 = F;
+    break;
+    }
+
+    cout<<""<<endl;
+    cout<<"Class 7: ";
+    cin>>grade7;
+
+    switch(grade7){
+case 'A':
+    grade7 = A;
+    class7 = A;
+break;
+case 'B':
+    grade7 = B;
+    class7 = B;
+    break;
+case 'C':
+    grade7 = C;
+    class7 = C;
+    break;
+case 'D':
+    grade7 = D;
+    class7 = D;
+    break;
+case 'F':
+    grade7 = F;
+    class7 = F;
+    break;
+    }
+    cout<<""<<endl;
+    totalSum = class1 + class2 + class3 + class4 + class5 + class6 + class7;
+    Gpa = totalSum / 7;
+    cout<<"Your Gpa is " <<Gpa<<endl;
+    return 0;
+}
